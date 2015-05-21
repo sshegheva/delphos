@@ -1,3 +1,6 @@
+"""
+how to actually get a recommender from the cluster
+"""
 import re
 import nltk
 import pandas as pd
@@ -55,6 +58,12 @@ class PeerRecommender(object):
         self.presentation_frame = pd.DataFrame(presentations,
                                                index=[self.clusters],
                                                columns=['presentation', 'cluster', 'text', 'innovation'])
+
+    def recommend_peers(self, person):
+        self.presentation_frame
+        
+    def presentation_team(self, presentation):
+        return "team members"
 
     def print_clusters(self, num_terms=10):
         order_centroids = self.km.cluster_centers_.argsort()[:, ::-1]
