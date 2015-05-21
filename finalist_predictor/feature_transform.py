@@ -1,6 +1,7 @@
 import glob
 import logging
 import pandas as pd
+import traceback
 FEATURES = []
 
 PLACE = 'place'
@@ -42,17 +43,21 @@ LOGGER.setLevel(logging.DEBUG)
 
 
 class FeatureExtractor(object):
-    def __init__(self, innovation_csv):
+    def __init__(self, innovation_csv, debug=False):
         LOGGER.debug('Parsing {}'.format(innovation_csv))
         self.df = None
         try:
             self.csv = innovation_csv
-            self.name = self.csv.split('.')[0]
+            self.name = self.csv.split('/')[-1].split('.')[0]
             self.df = pd.read_csv(self.csv)
+            self.df.rename(columns=lambda x: x.strip(), inplace=True)
+            self.columns = self.df.columns.tolist()
             self._parse_features()
             self._drop_noise()
             LOGGER.debug('Parsed {}'.format(innovation_csv))
         except:
+            if debug:
+                traceback.print_exc()
             LOGGER.error('Unable to parse {}'.format(innovation_csv))
 
     def _parse_features(self):
@@ -93,20 +98,38 @@ class FeatureExtractor(object):
         self.df[INNO_DAY] = self.name
 
     def create_topic_feature(self):
-        self.df[TOPIC] = self.df['Quick Description of the project (for recruiting others!)']
-        self._drop_column('Quick Description of the project (for recruiting others!)')
+        columns = self.df.columns.tolist()
+        column = None
+        for c in columns:
+            if 'Description' in c:
+                column = c
+        if column:
+            self.df[TOPIC] = self.df[column]
+            self._drop_column(column)
 
     def create_department_feature(self):
         pass
 
     def create_location_feature(self):
-        self.df[LOCATION] = self.df['Project Home Base (NYC, Bos, Germany, etc.)']
-        self._drop_column('Project Home Base (NYC, Bos, Germany, etc.)')
+        columns = self.df.columns.tolist()
+        column = None
+        for c in columns:
+            if 'Home Base' in c:
+                column = c
+        if column:
+            self.df[LOCATION] = self.df[column]
+            self._drop_column(column)
 
     def create_team_members_feature(self):
-        self.df[TEAM_MEMBERS] = self.df['Team Members (no more than 5!)'].str.split('\t')
-        self.df[TEAM_MEMBERS] = self.df[TEAM_MEMBERS].apply(lambda x: [i for i in x if i != '' and i != '\xe2\x80\xa2'])
-        self._drop_column('Team Members (no more than 5!)')
+        columns = self.df.columns.tolist()
+        column = None
+        for c in columns:
+            if 'Team Members' in c:
+                column = c
+        if column:
+            self.df[TEAM_MEMBERS] = self.df[column].apply(lambda x: filter(None, str(x).replace('\t', '\n').splitlines()))
+            self.df[TEAM_MEMBERS] = self.df[TEAM_MEMBERS].apply(lambda x: [i for i in x if i != '' and i != '\xe2\x80\xa2'])
+            self._drop_column(column)
 
     def create_diversity_feature(self):
         pass
@@ -121,8 +144,11 @@ class FeatureExtractor(object):
         pass
 
     def create_style_feature(self):
-        self.df[STYLE] = self.df['Classic or GSD?']
-        self._drop_column('Classic or GSD?')
+        if 'Classic or GSD?' in self.columns:
+            self.df[STYLE] = self.df['Classic or GSD?']
+            self._drop_column('Classic or GSD?')
+        else:
+            self.df[STYLE] = 'Classic'
 
     def create_category_feature(self):
         pass
