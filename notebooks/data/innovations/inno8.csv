@@ -1,0 +1,116 @@
+"
+",,,,,
+Judging Session,Team Name,"Project Home Base (NYC, Bos, Germany, etc.)",Classic or GSD?,Quick Description of the project (for recruiting others!),Team Members (no more than 5!)
+ ,People looking for teams!,Boston,GSD,people looking for a project,"We are looking for a team: 	•	Alyssa Fedorchak
+	•	Bosheng Song"
+BOS-Red,Algorithm for Algorithms,Boston,a bit of both,Algorithm recommender - suggest the the right algorithm for flights and flag less-than-optimal algorithms,"	•	Beth L.
+	•	Narin Nhem
+	•	Karen H."
+BOS-Blue,D is for DataXu,Boston,GSD,Wikipedia article for DataXu,"	•	Amelio Vazquez-Reina
+	•	Terence Lonsdale
+	•	Katie Gabriello
+	•	Jocelyn Sloane
+	•	Daniel Reis"
+BOS-Green,Insight Squad,Boston,Classic,"Creation of an insight & visualization squad for sales, finance & BD.","	•	Amelio Vazquez-Reina
+	•	Beth Logan
+	•	Anthony Field
+	•	Drew Silverman
+	•	Samantha Wong"
+BOS-Red,Think Big,"Boston, Uruguay",Classic,Allows Enterprise clients to use their in-house expertise to add complex prediction model for their campaigns in DX blackbox.,"	•	Maximo G
+	•	Saket M
+	•	Stacy H
+	•	Martin B"
+BOS-Red,Six Sigma,Boston,GSD,Improve the quality of DX optimizations by creating a framework for developing metrics and alerts.,"	•	Snejana Shegheva
+	•	Shashank Agarwal
+	•	Chris Prinos
+	•	Dave Adams"
+BOS-Green,Engineering 3.0,Boston,a|GSD> + b|Classical>,Improve the collaboration process in DataXu,"	•	Snejana Shegheva
+	•	Shashank Agarwal
+	•	Chris Prinos
+	•	Dave Adams"
+BOS-Blue,What's Up,"Boston, TBD",GSD,HTML based stream of all things DataXu for inter office info sharing,"	•	Bobby Mirabello
+	•	Adam Gurin
+	•	JB Segal
+	•	Looking for members from satellite offices! Get in touch with Bobby if interested"
+BOS-Blue,I2GToo,Boston,Classic,Run Greenplum with AWS I2 instance,"	•	Frank DiCostanzo
+	•	Dong Jiang"
+BOS-Green,Third Party Data Tracker,Boston,Classic," Inspired by the Domino's Pizza Tracker: http://www.bubblews.com/assets/images/news/753589006_1352341227.jpg wanted to create a similar widget for tracking the 3rd party segment ingestion in our system from upload from 3rd party vendors like Acxiom, Lotame or NeuStar to retargeting by RTS.","	•	Jad Atoui
+	•	Thomas Musser
+	•	Yong Wang
+	•	Max Gillett"
+BOS-Red,DID (DataXu In-Memory DB),Boston,A bit of both,Evaluate SAP HANA (and Oracle Times Ten if have time) in memory DB,	•	Yong Wang
+BOS-Blue,Anti-Fraud Squad,Boston,GSD,Eliminate bad domains and actors pre-bid and help improve our brand safety mechanism,"	•	James Baldassari
+	•	Josh Begleiter
+	•	Matt Womer
+	•	Sudeep Setlur
+	•	Tal Baron"
+BOS-Green,TBD,New York (with team members in Boston & San Fran),GSD,"Create a true home page on the DataXu WIKI to act as an employee hub and connect Xukeepers to all tools, resources, company news, etc. while also representing our culture.","	•	Jessica Bartlett
+	•	Olivia Shiland
+	•	Heather Lum"
+BOS-Red,Taking a Stand for Health,Boston,Classic,"Evaluate the benefits and cost effectiveness of offering Adjustable Stand-Up Desks for employees, including benefits to productivity and overall employee health benefits.","	•	Joe Gosselin
+	•	Looking for Members"
+EU-UK,XuRangers,London,Classic,Design an automated end-of-campaign dashboard feature in the UI.,"	•	Daniel Sotudeh
+	•	Stewart Elsey
+	•	Dhruti Dattani
+	•	Niamh Downey
+	•	Elina Sokolovska"
+EU-UK,Data xStream,London,Classic,Create customer journey reporting tool.,"	•	Chris Le May
+	•	Charlene Fernandez
+	•	Romana Iliasova
+	•	Martin Brown
+	•	Marco Santos"
+BOS-Blue,Rad Ads,New York,Classic,Publishers,"	▪	Matt Ferrante
+	▪	John Bronzo
+	▪	Maria
+	▪	Priti
+	▪	Denise"
+BOS-Green,TBD,New York,GSD,Creative Bulk Preview,"	▪	Dan Caddigan
+	▪	Craig Belhumeur
+	▪	Ted Vlachos"
+BOS-Red,TBD,Boston,classic,"Evaluate mongodb for rts ""search"" (really lookups)","	•	Siping Liu
+	•	Looking for Members"
+BOS-Red,DataFits,Boston,GSD,Promote healthy living in the office - Mind body and SOUL!, 
+BOS-Green,Traffic Control,Boston,Classic,Visualize flight win rates in real time so that campaign managers can see whether or not flights are running and how they are delivering against bid prices,"	•	Jessica Carneiro
+	•	Michael Oort"
+BOS-Blue,Insert Your Order Here,New York,Classic,Create IO/Contract Portal for High Volume Customers,"	•	Rich D
+	•	Anthony White
+	•	Andy Dale
+	•	Kevin Fennelly
+	•	Alex Frank
+	•	Dan Ochs (Live Nation Consultant)"
+BOS-Blue,DX Tags 2.0,Boston,Classic,Build ability to add custom metadata / tags to objects on the DataXu platform. A frequent ask from major enterprise customers.,	•	Imran Malek
+BOS-Green,Simplified & Unified Analytics,Boston,Classic,"Unified analytics dashboard for querying and joining across datasets in DataXu - this includes Kinesis, Hive, RedShift","	•	Steve Zesch
+	•	Yekesa Kosuru"
+BOS-Red,Static Analysis,Boston,GSD,Integrate static analysis tools with Jenkins,	•	Corey Christous
+BOS-Blue,DataXu News,Boston,GSD,Weekly news show,"	•	Keri Medeiros
+	•	Kimberly Marchand
+	•	Mark Ferrandini
+	•	Ryan Young
+	•	Annika Morgan"
+BOS-Green,The Laurens (and anyone else!),Boston,GSD,"DataXu on The Beach, both inside and outside the building.","	•	Lauren Masterson
+	•	Lauren Docktor
+	•	Molly Griffin"
+BOS-Red,"NOCS
+ON
+NOCS",Boston,Classic,Proposal for creating a noc wall for SysEng.,"	•	Mick England
+	•	Joe Gosselin
+	•	Kris Pearson
+	•	Jonathan Goodwin
+	•	Jerri-Lee O'Donnell"
+BOS-Blue,DB Monitoring,Boston,Classic,Implement a new DB monitoring dashboard by Zabbix through DBforBix,"	•	Peter Dana
+	•	Angfeng Li
+	•	Bruce Termini"
+BOS-Green,Cruise Watchers,Boston,GSD,Campaign managers and watchers.,"	•	Misha S.
+	•	Bill D.
+	•	Jeff L.
+	•	Graham B.
+	•	Kate H."
+EU-UK,DX Creative UX,Cologne,Classic,Creative UX on creative and report category.,"	•	Oliver Bolenius
+	•	Anja Eckstein
+	•	Matthias Knaup
+	•	Aileen Diener
+	•	Jost Löhnenbach"
+BOS-Red,DX Sentinel,Boston,Classic,Easily Configure Monitoring End Points,"	•	Wes Reing
+	•	Justin Basque"
+BOS-Blue,Doc It,Boston,GSD,"Create a web service for storing and managing documentation associated with code in git. Provides a place to store API, java docs, test docs and test results.","	•	Ryan Carey
+	•	Vinod Rohra"

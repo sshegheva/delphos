@@ -1,0 +1,97 @@
+" 
+",,,,,,
+Place,Team Name,"Project Home Base (NYC, Bos, Germany, etc.)",Classic or GSD?,Session,Quick Description of the project (for recruiting others!),Team Members (no more than 5!)
+ ,Sour Patch Krew,Boston,GSD,BOS-Red,Rotten Tomatoes version of DX publishers and connected inventory to improve pre-sales selling efforts and post-sales campaign management.,"Manjula Kandasamy, Rory Edwards, Nick Escallon, Ken Van Every, Kristen Malerba-Smith"
+ ,Flex Fields,Boston,GSD,BOS-Blue,"Makes it easier to report on data that is not native to the DataXu ui. Add user configurable external data to objects in our UI and report on it. For example, at a campaign level we could add attributes like Team Assigned, or at a flight level it could be Venue, Customer ID, and City. Then these values would be available in the export tab.","Dan Ochs, John Skolfield, Nitesh Raol, Kara Hunter, Jeff Luckett"
+ ,Bullseye,Boston,classic,BOS-Green,"Track users with site category information. In particular some ""high value"" categories can be predefined such as auto, insurance, travel, etc. The users can then be matched to advertisers who are targeting those categories in subsequent web surfings.",Siping Liu
+ ,XuSwag,Boston, ,BOS-Red,"can't tell you what this is yet, but need someone from HR and Finance","Mike (Mishka) Surilov
+Gil Novak
+Lisa McAuliffe
+Molly Griffin"
+ ,Open Ad Player,Boston,classic,BOS-Blue,A multi-channel ad player,"Michael Oort
+Zhuoming Tang"
+ ,All About that Pace,Boston, ,BOS-Green, ,"Stacy Hanstad Joe Procacci
+Adam Gurin Amanda Kimball 
+Tonya Montella"
+ ,Educate the World,Boston,classic,BOS-Red,Use Training and Education as a grass roots initiative to grab market share by flooding the labor pool with graduates that are savvy with the DataXu platform.,"Bill Mepham
+Linda Sughrue"
+ ,DxBox,Boston,classic,BOS-Blue,Cost-effective solution for stand-up desks for Boston office,"Eugene Muzykin
+Joe Gosselin
+Daniel Lui"
+ ,Audience Booster,Boston,classic,BOS-Green,"Leverage our network of +100 million cookies and users that DataXu to identify and target users with similar purchasing behaviors. Among other things this will: 	•	Accurately extend the pool of users for any 1st or 3rd party audience or segment
+	•	Improve the scale and delivery for highly targeted and short-lived flights
+	•	Do much more with our combined 3rd party, 1st party and exchange data
+	•	Create new revenue streams from data aggregates","	•	Saket Mengle
+	•	Amelio Vazquez-Reina
+	•	Sunanda Parthasarathy
+	•	Tom Rue
+	•	Tom Flanagan"
+Finals,Peekaboo,Boston,classic,BOS-Red,"Create a decision tree to determine the probability of viewability, that can be chained as part of the decision engine (Xude) and turned on/off from the UI for different vendors.","Shashank Agarwal  Tal Baron Chris LaHaise 
+Jacqueline Horton
+Consultant: Dan Caddigan "
+Finals,Cruising for margin,New York,classic,BOS-Blue, ,"Dave Adams Denise Hotta
+Aaron Kechley (maybe..)
+Beth Logan
+Eric Mischel"
+" 
+Finals
+ ",Geoha$h for Ca$h,Boston, ,BOS-Green,"Enable user friendly, fast, and effective Lat/Long targeting at scale while providing a foundation for targeting and analytics based on geography.","Adam Markey
+Dan Caddigan
+James Rhee
+Joe Procacci
+(deprecated) Sudeep Setlur"
+Finals,Enterprise strikes back,Europe,classic,EU/UK,"Customer win-back is one of the most important tasks for both e-commerce and membership businesses. Customer win-back does not start with customers cancellation or zero sales per quarter but with analyzing customer interaction/shppoing data streams and reacting on changes. DataXu is able to define specific segments to identify customers that are searching for alternatives (e.g. analyzing netseer category/ url part data), especially those with will to change vendors. Client then could use DataXu ""win-back retargeting"" to address those customers with special offers to srengthen relationship.","Martin Buske
+Matthias Knaup
+Romana Anderson
+Carsten Becker
+Stefan Mengwasser (Consultant)
+Elina Sokolovska
+ "
+Finals,Global Sales Solutions,Boston,GSD,BOS-Red,Transforming RFP Gold into a complete selling solution,"Josh Begleiter
+Daniel Reis
+Rich Dallojacono
+Priti Ohri
+John Bronzo"
+Finals,DX Ad Investigator,Boston,GSD,BOS-Blue,"A user friendly utility to get details about DataXu ads shown in the wild. Great for debugging click tracking, verifying retargeting flights, and so much more!","Bill DeRusha
+Matt Womer
+Molly Heller
+Thomas Lehmann
+Kimberly Marchand
+Maria Martinez-Diaz (consultant)"
+ ,District 13,Boston,GSD,BOS-Green,"Build a centralized system to house all past Innovation Day projects in an effort to revitalize ideas/concepts that have not been put into production. Document all Inno. Day decks, related JIRA ticket #s, project leads and contacts, LOEs and track progress (Example of revitalized Inno Day project: Automated Screenshot Tool).","Kevin Mahoney
+Keri Medeiros
+Carly Rauh
+Lauren Masterson
+Julie Monaghan"
+ ,λ,Boston,Classic,BOS-Blue,Real-time plotting of bids across the globe.,"Steve Zesch James Baldassari Chip Pate"
+Finals,Dogfooding,Boston,Classic,BOS-Green,"Engineers running campaigns (""eating your own dogfood"") + DX Recruiting.",Misha Sidorsky Graham Baecher
+ ,Get Schooled,Boston,Classic,BOS-Red,Offer a coding skill development program for non-engineers at DataXu,"Michael Hall
+Nico César"
+ ,FourThumbsUp,San Francisco,Classic,SFO, ,"Jill Moreman
+Lina Miranda
+Doug Cuesta
+Sudha Reddy"
+Finals,#TalkToMe,San Francisco,Class,SFO,Secret!,"Anjalee Vasvani
+Alex Crow
+Charlie Taylor
+Dominic Gagliardi
+Heather Lum"
+ , , , , , , 
+ ,Capitol Records,Boston,GSD,BOS-Blue,"Automate status reports, pulling a user's JIRA tickets closed/resolved in the last week into a confluence page for this week's status.","Peter Buckley
+Ryan Carey"
+ ,OptimusX,Boston,Classic,BOS-Red,Provide users self-service access to pre-commerce analytics.  Create front end for building reports against data on the cloud.,"Jessica Carneiro
+Justin Basque
+Steve Zesch
+Chris McMahon"
+Finals,Stream Team,NYC,GSD,BOS-Blue,Streamlining some tedious processes in the UI.,"Kevin Fennelly
+Anthony White
+Ted Vlachos
+Pepe Lam"
+ ,DataBooHooHoo,Boston,Classic,BOS-Green, ,"Caitlin Flanagan
+Stephanie Cheung
+Aaron Ledwith
+Lauren Docktor 
+Samantha Wong"
+ ,InTernUP,Boston,GSD,BOS-Red,A thing that helps push spend data to Salesforce? Not sure on this,"Ben Kaufman
+whoever else"
+ ,Show me da $$$,Boston,Classic,BOS-Green,"Payee ID, you wish you did it.",Maria Martinez Diaz
