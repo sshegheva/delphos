@@ -61,7 +61,7 @@ class PeerRecommender(object):
 
     def recommend_peers(self, person):
         self.presentation_frame
-        
+
     def presentation_team(self, presentation):
         return "team members"
 

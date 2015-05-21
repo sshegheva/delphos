@@ -16,7 +16,7 @@ T = None
 
 
 def fit_classifier():
-    clf = neighbors.KNeighborsRegressor(n_neighbors)
+    clf = neighbors.KNeighborsClassifier(n_neighbors=n_neighbors)
     clf.fit(FEATURES, TARGET)
     return clf
 
