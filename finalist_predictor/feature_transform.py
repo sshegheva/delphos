@@ -2,6 +2,7 @@ import glob
 import logging
 import pandas as pd
 import traceback
+from sklearn.feature_extraction import DictVectorizer
 FEATURES = []
 
 PLACE = 'place'
@@ -128,7 +129,7 @@ class FeatureExtractor(object):
             if 'Team Members' in c:
                 column = c
         if column:
-            self.df[TEAM_MEMBERS] = self.df[column].apply(lambda x: filter(None, str(x).replace('\t', '\n').splitlines()))
+            self.df[TEAM_MEMBERS] = self.df[column].apply(lambda x: filter(None, str(x).replace('\t', '\n').replace(',', '\n').splitlines()))
             self.df[TEAM_MEMBERS] = self.df[TEAM_MEMBERS].apply(lambda x: [i for i in x if i != '' and i != '\xe2\x80\xa2'])
             self._drop_column(column)
 
@@ -163,7 +164,7 @@ class FeatureExtractor(object):
     def create_team_name_feature(self):
         self.df[TEAM_NAME] = self.df['Team Name']
         self._drop_column('Team Name')
-        self.df.set_index(TEAM_NAME, inplace=True)
+        #self.df.set_index(TEAM_NAME, inplace=True)
 
     def create_team_name_length(self):
         self.df[TEAM_NAME_LENGTH] = self.df[TEAM_NAME].apply(lambda x: sum(x))
@@ -181,4 +182,18 @@ class FeatureExtractor(object):
 def create_innovation_frame(data_path):
     data_files = glob.glob(data_path + '/*.csv')
     frames = [FeatureExtractor(f).df for f in data_files]
-    return pd.concat(frames)
+    df = pd.concat(frames).reset_index()
+    return df
+
+
+def transform_frame(df):
+    df = df.drop(TEAM_MEMBERS, axis=1)
+    columns = df.columns.tolist()
+    columns.remove(PLACE)
+    df_features = df[columns]
+    index = df.index.tolist()
+    df_features.fillna(0, inplace=True)
+    d = [df_features.loc[i].to_dict() for i in index]
+    vec = DictVectorizer()
+    transformed = vec.fit_transform(d)
+    return transformed, df[PLACE]
