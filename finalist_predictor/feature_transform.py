@@ -90,6 +90,7 @@ class FeatureExtractor(object):
     def create_place_feature(self):
         if 'Place' in self.df.columns.tolist():
             self.df[PLACE] = self.df['Place']
+            self.df[PLACE].fillna('Not Final', inplace=True)
             self._drop_column('Place')
         else:
             self.df[PLACE] = 'TBD'
@@ -162,6 +163,7 @@ class FeatureExtractor(object):
     def create_team_name_feature(self):
         self.df[TEAM_NAME] = self.df['Team Name']
         self._drop_column('Team Name')
+        self.df.set_index(TEAM_NAME, inplace=True)
 
     def create_team_name_length(self):
         self.df[TEAM_NAME_LENGTH] = self.df[TEAM_NAME].apply(lambda x: sum(x))
