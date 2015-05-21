@@ -1,7 +1,7 @@
 Place,Judging Session,Team Name,"Project Home Base (NYC, Bos, Germany, etc.)",Classic or GSD?,Quick Description of the project (for recruiting others!),Team Members (no more than 5!)
 åÊ,åÊ,People looking for teams!,Boston,GSD,people looking for a project,"We are looking for a team: 	‰Û¢	Alyssa Fedorchak
 	‰Û¢	Bosheng Song"
-åÊ,BOS-Red,Algorithm for Algorithms,Boston,a bit of both,Algorithm recommender - suggest the the right algorithm for flights and flag less-than-optimal algorithms,"	‰Û¢	Beth L.
+Finals,BOS-Red,Algorithm for Algorithms,Boston,a bit of both,Algorithm recommender - suggest the the right algorithm for flights and flag less-than-optimal algorithms,"	‰Û¢	Beth L.
 	‰Û¢	Narin Nhem
 	‰Û¢	Karen H."
 åÊ,BOS-Blue,D is for DataXu,Boston,GSD,Wikipedia article for DataXu,"	‰Û¢	Amelio Vazquez-Reina
@@ -18,7 +18,7 @@ Place,Judging Session,Team Name,"Project Home Base (NYC, Bos, Germany, etc.)",Cl
 	‰Û¢	Saket M
 	‰Û¢	Stacy H
 	‰Û¢	Martin B"
-åÊ,BOS-Red,Six Sigma,Boston,GSD,Improve the quality of DX optimizations by creating a framework for developing metrics and alerts.,"	‰Û¢	Snejana Shegheva
+Finals,BOS-Red,Six Sigma,Boston,GSD,Improve the quality of DX optimizations by creating a framework for developing metrics and alerts.,"	‰Û¢	Snejana Shegheva
 	‰Û¢	Shashank Agarwal
 	‰Û¢	Chris Prinos
 	‰Û¢	Dave Adams"
@@ -37,15 +37,15 @@ Place,Judging Session,Team Name,"Project Home Base (NYC, Bos, Germany, etc.)",Cl
 	‰Û¢	Yong Wang
 	‰Û¢	Max Gillett"
 åÊ,BOS-Red,DID (DataXu In-Memory DB),Boston,A bit of both,Evaluate SAP HANA (and Oracle Times Ten if have time) in memory DB,"	‰Û¢	Yong Wang"
-åÊ,BOS-Blue,Anti-Fraud Squad,Boston,GSD,Eliminate bad domains and actors pre-bid and help improve our brand safety mechanism,"	‰Û¢	James Baldassari
+Finals,BOS-Blue,Anti-Fraud Squad,Boston,GSD,Eliminate bad domains and actors pre-bid and help improve our brand safety mechanism,"	‰Û¢	James Baldassari
 	‰Û¢	Josh Begleiter
 	‰Û¢	Matt Womer
 	‰Û¢	Sudeep Setlur
 	‰Û¢	Tal Baron"
-åÊ,BOS-Green,TBD,New York (with team members in Boston & San Fran),GSD,"Create a true home page on the DataXu WIKI to act as an employee hub and connect Xukeepers to all tools, resources, company news, etc. while also representing our culture.","	‰Û¢	Jessica Bartlett
+Finals,BOS-Green,TBD,New York (with team members in Boston & San Fran),GSD,"Create a true home page on the DataXu WIKI to act as an employee hub and connect Xukeepers to all tools, resources, company news, etc. while also representing our culture.","	‰Û¢	Jessica Bartlett
 	‰Û¢	Olivia Shiland
 	‰Û¢	Heather Lum"
-åÊ,BOS-Red,Taking a Stand for Health,Boston,Classic,"Evaluate the benefits and cost effectiveness of offering Adjustable Stand-Up Desks for employees, including benefits to productivity and overall employee health benefits.","	‰Û¢	Joe Gosselin
+Finals,BOS-Red,Taking a Stand for Health,Boston,Classic,"Evaluate the benefits and cost effectiveness of offering Adjustable Stand-Up Desks for employees, including benefits to productivity and overall employee health benefits.","	‰Û¢	Joe Gosselin
 	‰Û¢	Looking for Members"
 åÊ,EU-UK,XuRangers,London,Classic,Design an automated end-of-campaign dashboard feature in the UI.,"	‰Û¢	Daniel Sotudeh
 	‰Û¢	Stewart Elsey
@@ -57,12 +57,12 @@ Place,Judging Session,Team Name,"Project Home Base (NYC, Bos, Germany, etc.)",Cl
 	‰Û¢	Romana Iliasova
 	‰Û¢	Martin Brown
 	‰Û¢	Marco Santos"
-åÊ,BOS-Blue,Rad Ads,New York,Classic,Publishers,"	‰Ð»	Matt Ferrante
+Finals,BOS-Blue,Rad Ads,New York,Classic,Publishers,"	‰Ð»	Matt Ferrante
 	‰Ð»	John Bronzo
 	‰Ð»	Maria
 	‰Ð»	Priti
 	‰Ð»	Denise"
-åÊ,BOS-Green,TBD,New York,GSD,Creative Bulk Preview,"	‰Ð»	Dan Caddigan
+Finals,BOS-Green,TBD,New York,GSD,Creative Bulk Preview,"	‰Ð»	Dan Caddigan
 	‰Ð»	Craig Belhumeur
 	‰Ð»	Ted Vlachos"
 åÊ,BOS-Red,TBD,Boston,classic,"Evaluate mongodb for rts ""search"" (really lookups)","	‰Û¢	Siping Liu
@@ -70,7 +70,7 @@ Place,Judging Session,Team Name,"Project Home Base (NYC, Bos, Germany, etc.)",Cl
 åÊ,BOS-Red,DataFits,Boston,GSD,Promote healthy living in the office - Mind body and SOUL!,åÊ
 åÊ,BOS-Green,Traffic Control,Boston,Classic,Visualize flight win rates in real time so that campaign managers can see whether or not flights are running and how they are delivering against bid prices,"	‰Û¢	Jessica Carneiro
 	‰Û¢	Michael Oort"
-åÊ,BOS-Blue,Insert Your Order Here,New York,Classic,Create IO/Contract Portal for High Volume Customers,"	‰Û¢	Rich D
+Finals,BOS-Blue,Insert Your Order Here,New York,Classic,Create IO/Contract Portal for High Volume Customers,"	‰Û¢	Rich D
 	‰Û¢	Anthony White
 	‰Û¢	Andy Dale
 	‰Û¢	Kevin Fennelly
@@ -98,7 +98,7 @@ NOCS",Boston,Classic,Proposal for creating a noc wall for SysEng.,"	‰Û¢	Mick
 åÊ,BOS-Blue,DB Monitoring,Boston,Classic,Implement a new DB monitoring dashboard by Zabbix through DBforBix,"	‰Û¢	Peter Dana
 	‰Û¢	Angfeng Li
 	‰Û¢	Bruce Termini"
-åÊ,BOS-Green,Cruise Watchers,Boston,GSD,Campaign managers and watchers.,"	‰Û¢	Misha S.
+Finals,BOS-Green,Cruise Watchers,Boston,GSD,Campaign managers and watchers.,"	‰Û¢	Misha S.
 	‰Û¢	Bill D.
 	‰Û¢	Jeff L.
 	‰Û¢	Graham B.
